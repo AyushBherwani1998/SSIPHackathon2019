@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986813123095",
+    "firebase_url": "https://ssiphack-a0b00.firebaseio.com",
+    "project_id": "ssiphack-a0b00",
+    "storage_bucket": "ssiphack-a0b00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986813123095:android:50c624189496d44d",
+        "android_client_info": {
+          "package_name": "com.flux.rahul.ssiphack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986813123095-3fhuc9ltjq2vco9r5ia6d0nbe1bbno56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsOhWxQN6PQIHl_O8ZNydpfIZQSwZA3QQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
