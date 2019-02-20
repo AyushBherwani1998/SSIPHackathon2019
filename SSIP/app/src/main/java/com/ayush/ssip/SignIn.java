@@ -20,18 +20,26 @@ public class SignIn extends AppCompatActivity {
     TextView password;
     Button mLoginButton;
     private FirebaseAuth mAuth;
+    TextView forgotPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
         email = findViewById(R.id.emailField);
         password =  findViewById(R.id.password);
+        forgotPassword = findViewById(R.id.textView2);
         mLoginButton = findViewById(R.id.LoginButton);
         mAuth = FirebaseAuth.getInstance();
         if(mAuth.getCurrentUser()!=null){
             startActivity(new Intent(SignIn.this,HomePage.class));
             finish();
         }
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignIn.this,ForgetPassword.class));
+            }
+        });
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
