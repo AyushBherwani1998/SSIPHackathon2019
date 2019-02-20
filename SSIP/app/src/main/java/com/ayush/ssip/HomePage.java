@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomePage extends AppCompatActivity {
-    Button signoutButton;
+    Button signoutButton,b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,14 @@ public class HomePage extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(HomePage.this,SignIn.class));
                 finish();
+            }
+        });
+        b1 = findViewById(R.id.profile_button);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(HomePage.this,Profile.class));
             }
         });
     }

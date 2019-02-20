@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="168dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="539dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:padding="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Ayush Bherwani"
+        android:textSize="24sp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userName"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="473dp"
+            android:layout_marginTop="56dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="Adhar Number"
+                android:textColor="#616161"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/adharno_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="18945827795"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="Phone Number"
+                android:textColor="#616161"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/phoneno_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="9076589632"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="Address"
+                android:textColor="#616161"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/address_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="C-69,Chinchpokli Bandar,Khau Gali"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="Email ID"
+                android:textColor="#616161"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/email_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="demo@gmail.com"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                android:text="D.O.B."
+                android:textColor="#616161"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/dob_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="10/2/2019"
+                android:textColor="#000"
+                android:textSize="20sp" />/
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
