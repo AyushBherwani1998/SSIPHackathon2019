@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "946683074237",
+    "firebase_url": "https://ssiphack-5dd9a.firebaseio.com",
+    "project_id": "ssiphack-5dd9a",
+    "storage_bucket": "ssiphack-5dd9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946683074237:android:8f62fb468ca00065",
+        "android_client_info": {
+          "package_name": "com.ayush.ssip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946683074237-aruf17k6gj09504c3moljovnc65trjds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayush.ssip",
+            "certificate_hash": "d0bc723ffe8eb39662abcf85553a2fd23f51c17b"
+          }
+        },
+        {
+          "client_id": "946683074237-8ls3u5f2gjek4io7lgpp2jnrp7s37dus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCokxLxMHtrWuk10SviRbqH07sDIw0jp5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946683074237-8ls3u5f2gjek4io7lgpp2jnrp7s37dus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
